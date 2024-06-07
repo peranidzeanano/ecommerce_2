@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/* _______________________________ */
+body {
+  font-family: sans-serif;
+  background-color: rgb(226, 221, 221);
+}
+
+.conteiner {
+  width: 1600px;
+  margin: 100px auto;
+}
+
+.hero-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 36px;
+  background-color: #fff;
+  padding: 96px;
+  overflow: hidden;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  align-items: center;
+  background-color: #fff;
+  border: 3px solid #ebeaed;
+  border-radius: 9px;
+  padding: 36px;
+  width: 570px;
+  align-content: center;
+}
+
+.card-prodact-img {
+  width: 100%;
+}
+
+.gray-text {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #15143966;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 32px;
+  text-align: left;
+  color: #1e0e62;
+  margin-bottom: 12px;
+}
+
+.card-list {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 36px;
+  margin-left: 15px;
+}
+
+.card-list li {
+  list-style: initial;
+}
+
+.card-btn {
+  border: 1px solid #ebeaed;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 8px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #1e0e62;
+  margin-right: 12px;
+}
+
+.card-price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #482be7;
+}
+
+/* __________________________________________________ */
+.bigger-card {
+  grid-template-columns: 1fr;
+  grid-row: span 2; /* Span across two rows */
+  width: auto; /* Adjust the width if necessary */
+}
+
+.gird-two-cl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bigger-card-img {
+  margin-bottom: 24px;
+}
+
+.main-text {
+  margin-bottom: 18px;
+}
